@@ -1,0 +1,42 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8
+% !TEX root = aims_syllabus.tex
+% For any queries, contact Papa Sega WADE (https://papasegawade.com)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Course Title Placeholder}\label{course-title-placeholder}
+
+\textbf{Institution}: AIMS Senegal \\
+\textbf{Course Load}: 30 hours \\
+\textbf{Target Audience}: Master II students
+
+\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+
+\subsection{1. How to use this template}\label{how-to-use}
+
+This is a placeholder body file (\texttt{course\_body.tex}). In a real-world scenario, you do not need to write this entire layout in pure LaTeX!
+
+You can write your syllabus easily in Markdown (like \texttt{my\_syllabus.md}) and generate this file automatically using \textbf{Pandoc}.
+
+For example, run this in your terminal:
+\begin{verbatim}
+pandoc my_syllabus.md -t latex --top-level-division=section -o course_body.tex
+\end{verbatim}
+
+The \texttt{main.tex} file will then automatically include your generated content while keeping the beautiful AIMS branded cover page and headers intact!
+
+\subsection{2. Example Table}\label{example-table}
+
+If you have tables that look squished, you can manually adjust the \texttt{longtable} width ratios in the generated LaTeX file.
+
+\begin{longtable}[]{@{}ll@{}}
+\toprule\noalign{}
+Topic & Hours \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Foundations & 10h \\
+Advanced Topics & 20h \\
+\end{longtable}
