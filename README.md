@@ -1,5 +1,7 @@
 # AIMS Syllabus LaTeX Template
 
+![AIMS Syllabus Cover Page Example](example/example.png)
+
 A professional LaTeX template built for the **African Institute for Mathematical Sciences (AIMS)** master's programs. 
 
 This repository allows you to wrap standard Markdown-generated syllabus documents in a beautifully branded AIMS PDF format.
